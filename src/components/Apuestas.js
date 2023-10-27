@@ -25,7 +25,7 @@ export default class Apuestas extends Component {
         return (
             <div className='container'>
                 <h1>Apuestas</h1>
-                <NavLink className="btn btn-info" to="crearapuesta">Añadir apuesta</NavLink>
+                <NavLink className="btn btn-info" to="/crearapuesta">Añadir apuesta</NavLink>
                 {
                     this.state.status === true &&
                     (
